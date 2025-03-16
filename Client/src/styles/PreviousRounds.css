@@ -78,3 +78,13 @@ textarea:focus {
   font-family: Marck Script;
   font-size: 55px;
 }
+
+/* Styling for mobile app  */
+
+@media screen and (max-width: 450px) {
+
+  .round, .rounds, #deleteButton, .container {
+  overflow-x: hidden;
+  width: 100%;
+  }
+}

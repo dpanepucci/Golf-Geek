@@ -111,4 +111,9 @@ button:focus-visible {
   .wrapper {
       flex-direction: column; /* Mobile: stacked layout */
   }
+
+  #root {
+    overflow-x: hidden;
+    width: 100%;
+  }
 }
