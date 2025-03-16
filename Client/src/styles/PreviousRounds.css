@@ -87,4 +87,9 @@ textarea:focus {
   overflow-x: hidden;
   width: 100%;
   }
+
+  #deleteButton {
+    display: none;
+  }
+
 }
