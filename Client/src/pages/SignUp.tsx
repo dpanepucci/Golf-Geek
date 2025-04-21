@@ -2,7 +2,7 @@ import { useState, FormEvent, ChangeEvent } from "react";
 import Auth from '../utils/auth';
 import { signUp } from "../api/authAPI";
 
-import "../styles/SignUp.css";
+import "../styles/Login_SignUp.css";
 
 const SignUp = () => {
     const [signUpData, setSignUpData] = useState({

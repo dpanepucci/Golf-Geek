@@ -2,7 +2,7 @@ import { useState, FormEvent, ChangeEvent } from "react";
 import Auth from '../utils/auth';
 import { login } from "../api/authAPI";
 
-import "../styles/Login.css";
+import "../styles/Login_SignUp.css";
 
 
 const Login = () => {

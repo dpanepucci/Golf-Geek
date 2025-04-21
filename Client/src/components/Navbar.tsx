@@ -13,10 +13,7 @@ const Navbar = () => {
     <div className="display-flex justify-space-between align-center py-2 px-5 mint-green">
       <div>
         {
-          //
-          // Conditional rendering based on signUpCheck state
           !loginCheck ? (
-            // Render signUp button if user is not sign up
             <>
           
               <Link to='/login' style={{ color: 'white' }}><button id="btn" type='button'>Login 
@@ -27,9 +24,8 @@ const Navbar = () => {
             </button>
             </>
           ) : (
-            // Render logout button if user is logged in
             <button className="btn" type='button' onClick={() => {
-              auth.logout();  // Call logout() method from auth utility on button click
+              auth.logout();
             }}>Logout</button>
           )
         }

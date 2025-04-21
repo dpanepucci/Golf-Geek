@@ -8,12 +8,15 @@ function App() {
   return (
     <>
     <div className='AppDiv'>
-    <div id='NavBar'>
-      <Navbar />
-    </div>
+
       <main>
         <Outlet />
       </main>
+      <br></br>
+      <br></br>
+    <div id='NavBar'>
+      <Navbar />
+    </div>
     </div>
   </>
   )

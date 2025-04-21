@@ -5,44 +5,6 @@
   text-align: center;
 }
 
-/* Golfer Animation */
-
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
-}
-
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
-}
-
-.card {
-  padding: 2em;
-}
-
-.read-the-docs {
-  color: #888;
-}
-
 /* Logos on main page/ Icons */
 
 .LogoPage {
@@ -128,35 +90,6 @@ h2 {
   padding: 20px;
 }
 
-/* Sign Up/Login Button */
-
-/* Login Button */
-#btn {
-  padding: 10px 20px;
-  border-radius: 50%;
-  margin: 0 10px;
-  text-decoration: none;
-  height: 100px;
-  width: 100px;
-  color: white;
-}
-/* Sign Up Button */ 
-.btn {
-  padding: 10px 20px;
-  border-radius: 50%;
-  margin: 0 10px;
-  text-decoration: none;
-  height: 100px;
-  width: 100px;
-  color: white;
-  padding-bottom: 30px;
-}
-
-#btn .btn {
- display: flex;
- align-items: center;
-}
-
 
 /* Styling for iPhone/ mobile device */
 
@@ -178,4 +111,8 @@ h2 {
     display: flex;
     flex-direction: column;
   }
+  #NavBar {
+    display: flex;
+    justify-self: center;
+    }
 }
